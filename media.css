@@ -1,0 +1,394 @@
+
+  @media (max-width: 600px) {
+    
+    .menu_overlay{
+        width: 110%;
+        padding-top: 15vmax;
+        padding-bottom: 15vmax;
+        min-height: 150vh;
+    }
+
+    .menu_overlay img{
+        height: 320px;
+        width: 140px;
+        margin: 6vmax 3vmax 7vmax 3vmax ;
+        object-fit: cover;
+    }
+
+    #overlay_img_1{
+        position: absolute;
+        top: 9.5%;
+        left: 5%;
+    }
+
+    #overlay_img_2{
+        position: absolute;
+        top: 9.5%;
+        left: 48%;
+    }
+
+    #overlay_img_3{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+
+    #overlay_img_3{
+        position: absolute;
+        top: 46%;
+        left: 5%;
+    }
+
+    #overlay_img_4{
+        position: absolute;
+        top: 46%;
+        left: 48%;
+    }
+
+    .menu_overlay ul li{
+        font-family: 'Nunito', sans-serif;
+        font-size: 2.3vmax;
+        font-weight: 600;
+        color: white;
+    }
+
+    #home_button{
+        position: absolute;
+        top: 40.5%;
+        left: 13%;
+    }
+    
+    #destination_button{
+        position: absolute;
+        top: 40.5%;
+        left: 55%;
+    }
+    
+    #about_button{
+        position: absolute;
+        top: 76.5%;
+        left: 13%;
+    }
+    
+    #contact_button{
+        position: absolute;
+        top: 76.5%;
+        left: 55%;
+    }
+    
+
+    #cross{
+        top: 3%;
+        left: 50%;
+        font-size: 5vmax;
+    }
+
+    #content{
+        flex-direction: column-reverse;
+    }
+
+    .left{
+        width: 110%;
+        background-color:#dab358;
+    }
+
+    .right{
+        width: 110%;
+    }
+
+    nav{
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 11;
+    }
+    
+    nav h1{
+        margin-top: 1vmax;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .menu{
+        margin-right: 5vmax;
+        margin-top: 1.5vmax;
+        padding-left: 0.4vmax;
+    }
+
+    .right{
+        position: relative;
+        overflow: hidden;
+    }
+
+    #particals_img{
+        position: absolute;
+        top: 47%;
+        width: 75vmax;
+        height: 35vmax;
+    }
+
+    #particals_img img{
+        width: 800px;
+    }
+
+    #left_highlighted_text{
+        font-family: 'Nunito', sans-serif;
+        font-size: 6vmax;
+        font-weight: 600;
+        line-height: 50px;
+        margin-top: -6vmax;
+    }
+
+    #footer_content{
+        height: 70%;
+        width: 90%;
+        align-items: flex-start;
+    }
+
+    #left_paragraph{
+        font-size: 2.2vmax;
+        font-weight: 600;
+        line-height: 28px;
+        color: #342b14;
+    }
+    
+    #footer_content button{
+        font-size: 1.8vmax;
+        font-weight: 600;
+        line-height: 25px;   
+    }
+    
+    #down_arrow{
+    top: -8vmax;
+    left: 11vmax;
+    }
+
+    #down_arrow span{
+        font-size: 3vmax;
+        font-weight: 600;
+    }
+
+    #down_arrow::after{
+        font-size: 3vmax;
+        font-weight: 600;
+    }
+
+    #page_2{
+        flex-direction: column;
+    }
+
+    #secondpage_left_side{
+        width: 110%;
+    }
+
+    #secondpage_right_side{
+        width: 110%;
+    }
+
+    #section_right_1 h1{
+        /* font-family: 'Nunito', sans-serif; */
+        font-size: 3.6vmax;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    #section_right_2 p{
+        /* font-family: 'Nunito', sans-serif; */
+        font-size: 1.8vmax;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -1px;
+    }
+
+    #large_font_letter{
+        font-family: 'Nunito', sans-serif;
+        font-size: 5.2vmax;
+        font-weight: 500;
+        position: absolute;
+        top: 21%;
+        left: 37.5%;
+    }
+
+    #page_3{
+        width: 110%;
+    }
+    
+    #page_3  h1{
+        /* font-family: 'Nunito', sans-serif; */
+        font-size: 4vmax;
+        font-weight: 500;
+        /* padding-bottom: 2vmax; */
+    }
+
+    #page_3  span{
+        /* font-family: 'Nunito', sans-serif; */
+        font-size: 7.5vmax;
+        line-height: 70px;
+        font-weight: 500;   
+        letter-spacing: -1px;
+        margin-top: 5vmax;
+    }
+
+    #page_4{
+        /* background-color: pink; */
+        flex-direction: column;
+    }
+
+    #left_img_section_page_4{
+        width: 110%;
+    }
+
+
+    #right_content_section_page_4
+    {
+        width: 110%;
+    }
+
+    #right_content_section_page_4 h1{
+        font-size: 4vmax;
+        line-height: 40px;
+        font-weight: 700;   
+        margin-bottom: 2.5vmax;
+    }
+
+    #page_4_right_section_wrapper button{
+        font-size: 2.6vmax;
+        font-weight: 600;   
+    }
+
+    #right_arrow_wrapper{
+        font-size: 4vmax;
+        font-weight: 500;
+        top: -1.6vmax;
+        left: 1vmax; 
+    }
+
+
+    #right_arrow_wrapper::after{
+        font-size: 4vmax;
+        font-weight: 500;
+    }
+
+    #page_5{
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #page_5_leftside_wrapper{
+        width: 110%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #page_5_rightside_wrapper{
+        width: 110%;
+        background-color: black;
+        position: absolute;
+        z-index: -11;
+    }
+
+
+    .particals_img_changes{
+        width: 70vmax;
+        height: 70vmax;  
+        position: relative;
+        left: 75%;
+        top: 10%;  
+    }
+
+    .particals_img_changes img{
+        width: 940px;
+        height: 600px;
+    }
+
+    #main_arrow_button_box{
+        flex-direction: column;
+    }
+
+    #page_5_left_section_wrapper_1{
+        position: absolute;
+        top: 12%;    
+    }
+
+    #page_5_left_section_wrapper_2{
+        position: absolute;
+        top: 22%;
+        margin-top: 1.5vmax;
+    }
+
+    #page_5_left_section_wrapper_3{
+        position: absolute;
+        top: 32%;
+        margin-top: 2.5vmax;
+    }
+
+    #page_5_left_section_wrapper_1 button{
+        font-size: 4.5vmax;
+        font-weight: 500;
+    }
+
+    #page_5_left_section_wrapper_2 button{
+        font-size: 4.5vmax;
+        font-weight: 500;
+    }
+
+    #page_5_left_section_wrapper_3 button{
+        font-size: 4.5vmax;
+        font-weight: 500;
+    }
+
+    #left_arrow_wrapper_1{
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    #left_arrow_wrapper_2{
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    #left_arrow_wrapper_3{
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    footer{
+        margin-top: 20px;
+        font-size: 2vmax;
+        font-weight: 600;
+    }
+
+    #footer_wrapper h1{
+        font-size: 2.5vmax;
+        font-weight: 500;
+        position: relative;
+        bottom: 4vmax;
+    }
+
+    #heembouw_img{
+        width: 40px;
+        position: absolute;
+        top: 4vmax;
+        left: 2vmax;
+    }
+
+
+    #footer_wrapper h1 span{
+        font-size: 2.5vmax;
+        font-weight: 600;
+        top: 5vmax;
+        left: 6vmax;
+    }
+
+    #union_img{
+        width: 130px;
+        top: 4vmax;
+        left: 21vmax;
+    }
+
+}
